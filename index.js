@@ -37,7 +37,7 @@ while (quessesForHome == '' || quessesForHome == null) {
     while (quessesVariantPiple == '' || quessesVariantPiple == null) {
         quessesVariantPiple = prompt('Я слухаю');
     } 
-    alert('А,так ти хоч ' + quessesVariantPiple + ',поняв');
+    alert('А,так ти хоч - ' + quessesVariantPiple + ',я тебе поняв');
     alert('Але здається мені,що перший варіант кращий)');
 }
 
@@ -47,4 +47,16 @@ while (quessesForHome == '' || quessesForHome == null) {
 
 
 
+// function asksAlert(ask) {
+//     let a = ask;
+//     if (a == '' || a == null) {
+//         return alert(a);
+//     }
+// }
 
+// function asksPrompt(ask) {
+//     let a = ask;
+//     if (a == '' || a == null) {
+//         return prompt(a);
+//     }
+// }
