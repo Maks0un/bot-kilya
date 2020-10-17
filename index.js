@@ -15,9 +15,9 @@ if (hi == 'Ні') {
     alert('Але я не вірю,що можна не любити піцу,тож давай колись.');
 };
 
-let guessEat = prompt('Яку саме піцу ти обожнюєш?');
+let guessEat = alert('Яку саме піцу ти обожнюєш?');
 while (guessEat == '' || guessEat == null) {
-    guessEat = prompt('Яку саме піцу ти обожнюєш?');
+    guessEat = alert('Яку саме піцу ти обожнюєш?');
 };
 
 let eat = prompt('Тобто ти любиш ' + guessEat + '?Незнаю чи э така взагалі,но ладно.');
