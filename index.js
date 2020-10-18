@@ -1,7 +1,12 @@
-alert('Првіт,мене звати Кіля')
-let name = prompt('А яким іменем тебе "обдарували" твої батьки?');
+alert(`Правила гри:\n1 : Всюду де потребує гра ставити конкретні відповіді,обов\'язково ставити саме їх,наприклад : так або ні\n
+2 : Якщо вас запитуют щось,де можна відповісти не конкретними відповідями які були вказані в 1 правилі наприклад,то пишіт їх`);
+
+alert('Првіт,мене звати Кіля');
+alert('Я такий собі бот створений майбутнім сверх-супер-пупер програмістом Шупеньом Максимом Миколайовичом');
+alert('Для того щоб він міг потренуватись із кодом і щоб трішки розвеселити тебе,або ні)');
+let name = prompt('Для початку скажи яким іменем тебе "обдарували" твої батьки?');
 while (name == '' || name == null) {
-    name = prompt('А яким іменем тебе "обдарували" твої батьки?');
+    name = prompt('Для початку скажи яким іменем тебе "обдарували" твої батьки?');
 }
 alert(`Оу,непогане ім'я, ${name} ,справді непогане`);
 alert('Шутка)');
@@ -66,19 +71,53 @@ while (promis == '' || promis == null) {
     promis = prompt('Це точно?');
 }
 
- alert('Ну ладно,я тобі повірю,но...');
- alert('якшо ти мене надурив,то тобі капец,це так,к слову');
+alert('Ну ладно,я тобі повірю,но...');
+alert('якшо ти мене надурив,то я відвезу тебе у ліс і будем знімати там мотиваціонні ролики');
+alert('...');
+alert('Поки я їду давай заграємо в гру');
+alert('Я буду задавати питання,а ти відповідай "так" або "ні"');
+let answerGameTooQuestionOne = prompt(`Перше питання: Чи хочеш ти 10 дітей`);
+while (answerGameTooQuestionOne == '' || answerGameTooQuestionOne == null) {
+    answerGameTooQuestionOne = prompt(`Перше питання: Чи хочеш ти 10 дітей`);
+};
+if (answerGameTooQuestionOne === 'так') {
+    alert('a ok');
+    answerGameTooQuestionOne == true;
+};
+if (answerGameTooQuestionOne === 'ні') {
+    alert('good')
+    answerGameTooQuestionOne == false;
+};
+
+
+
+
+// let answerGameTooQuestionThre = prompt('хочеш бана в шоколаді?');
+
+
+
+
+alert(`... а тут ти написав "${answerGameTooQuestionOne}")`)
 
 
 
 
 
-
-
-
-
-
-
+// function showAlert(message, success = true) {
+//   let alertTemplate = `<div class="alert alert-dismissible ${
+//     success ? 'alert-success' : 'alert-danger'
+//   }" role="alert">
+//           <strong>${message}</strong> 
+//           <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+//                 <span aria-hidden="true">&times;</span>
+//           </button>
+//         </div>`;
+//   let alertElement = $('body').append(alertTemplate);
+//   alertElement.alert();
+//   setTimeout(() => {
+//     $('.alert').alert('close');
+//   }, 2000);
+// }
 
 // function asksPrompt(ask) {
 //     prompt(ask)
