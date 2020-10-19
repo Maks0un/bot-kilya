@@ -1,7 +1,7 @@
 alert(`Правила гри:\n1 : Всюду де потребує гра ставити конкретні відповіді,обов\'язково ставити саме їх,наприклад : так або ні\n
 2 : Якщо вас запитуют щось,де можна відповісти не конкретними відповідями які були вказані в 1 правилі наприклад,то пишіт їх`);
 
-alert('Првіт,мене звати Кіля');
+alert('Привіт,мене звати Кіля');
 alert('Я такий собі бот створений майбутнім сверх-супер-пупер програмістом Шупеньом Максимом Миколайовичом');
 alert('Для того щоб він міг потренуватись із кодом і щоб трішки розвеселити тебе,або ні)');
 let name = prompt('Для початку скажи яким іменем тебе "обдарували" твої батьки?');
@@ -81,23 +81,79 @@ while (answerGameTooQuestionOne == '' || answerGameTooQuestionOne == null) {
     answerGameTooQuestionOne = prompt(`Перше питання: Чи хочеш ти 10 дітей`);
 };
 if (answerGameTooQuestionOne === 'так') {
-    alert('a ok');
-    answerGameTooQuestionOne == true;
+    alert('stonks');
 };
 if (answerGameTooQuestionOne === 'ні') {
-    alert('good')
-    answerGameTooQuestionOne == false;
+    alert('-3 уху');
+};
+let answerGameTooQuestionToo = prompt('Друге питання: Хочеш банан в шоколаді?');
+while (answerGameTooQuestionToo == '' || answerGameTooQuestionToo == null) {
+    answerGameTooQuestionToo = prompt(`Друге питання: Хочеш банан в шоколаді?`);
+};
+if (answerGameTooQuestionToo === 'так') {
+    alert('оу...');
+    alert('ну,не довго лишилоси чекати)');
+    alert('чи може краще ..?');
+    alert('ну...');
+    let questionTooAnswer = prompt('тойво самого?');
+    while (questionTooAnswer == '' || questionTooAnswer == null) {
+        questionTooAnswer = prompt('тойво самого?');
+    };
+    if (questionTooAnswer == 'так') {
+        alert(')')
+        alert(')))')
+    };
+    if (questionTooAnswer == 'ні') {
+        alert('Та я гонююю');
+        let questionTooAnswerToo = prompt('а может всьо таки?');
+        while (questionTooAnswerToo == '' || questionTooAnswerToo == null) {
+            questionTooAnswerToo = prompt('а может всьо таки?') 
+        };
+        if (questionTooAnswerToo === 'так') {
+            alert('ооо зачот)');
+        };
+        if (questionTooAnswerToo === 'ні') {
+            alert('ну ладно(');
+        }
+    }
+};
+
+if (answerGameTooQuestionToo === 'ні') {
+    alert('');
 };
 
 
-
-
-// let answerGameTooQuestionThre = prompt('хочеш бана в шоколаді?');
+//ще 1 питання
 
 
 
 
-alert(`... а тут ти написав "${answerGameTooQuestionOne}")`)
+alert(`на питання 1 ти відповів '${answerGameTooQuestionOne}'
+на питання 2 ти відповів '${answerGameTooQuestionToo}'
+на питання 3 ти відповів (покишо його нема) 
+і тепер в мене питання...`);
+alert(`чому ти відповів саме так? ти добре все обдумав? \nможливо якщо б ти вибрав іншу відповідь то це привело б тебе до чогось кращого?`);
+
+if (answerGameTooQuestionOne == 'ні') {
+    alert(`наприклад якщо б в першому питані ти відповів "так"`);
+    alert(`ти думаєш мати 10 дітей це погано? чому?`);
+    alert(`мали багато міні версій себе самого,щось їм розповідати і пояснювати їхнім ще не созрівшим розумам`);
+    alert(`можливо ти був би щасливішим`);
+    alert(`ну або нє,я хз,і сам дітей багато не хочу`);
+    alert(`хоча я взагалі не впевнений що бот може мати діти)`)
+};
+if (answerGameTooQuestionOne == 'так') {
+    alert(`ти впевнений що мати так багато дітей це хороша ідея?`);
+    alert(`що тебе спонукає до цього?`);
+    alert(`чи може ти поприколу відповів?`);
+    alert(`в любому випадку,обдумай все ще разок,добре?`);
+    alert(`...`);
+}
+
+
+
+
+// alert(`... а тут ти написав "${answerGameTooQuestionOne}")`)
 
 
 
